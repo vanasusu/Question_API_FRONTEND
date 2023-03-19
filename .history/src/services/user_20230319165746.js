@@ -1,4 +1,4 @@
-const URL="https://question-bank-api.cyclic.app/api"
+const URL"
 export async function createUser(data) {
     const response = await fetch(`${URL}/signup`, {
         method: 'POST',

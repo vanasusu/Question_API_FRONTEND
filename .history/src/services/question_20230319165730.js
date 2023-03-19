@@ -1,4 +1,4 @@
-const URL="https://question-bank-api.cyclic.app/api"
+const URL"
 export async function postquestion(data,token) {
     const response = await fetch(`${URL}/question`, {
         method: 'POST',
