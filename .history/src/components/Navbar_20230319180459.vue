@@ -18,13 +18,13 @@
           </li>
           <li class="nav-item" v-show="user.role=='Teacher'">
             <router-link class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" to="/">
-              <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2">Create question</span>
+              <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2">Create</span>
             </router-link>
           </li>
          
           <li class="nav-item" v-show="user.role=='Teacher'">
             <router-link class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" to="/edit">
-              <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2">My Questions</span>
+              <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2"></span>
             </router-link>
           </li>
           <li class="nav-item">
