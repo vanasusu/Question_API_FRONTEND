@@ -95,7 +95,7 @@
             </p>
 
             <div class="text-gray-600 cursor-pointer" >
-          <router-link :to="'/details/' + question._id">    {{ question.user.username }}</router-link>
+          <router-link :to="'/details/' + question._id">    {{ question?.user?.username }}</router-link>
             </div>
           </div>
         </div>
